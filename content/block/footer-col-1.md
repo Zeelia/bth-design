@@ -1,3 +1,5 @@
-#### Footer col 1
+#### Tre små guldiga ordspråk
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+* Lärdom är mer värt än guld.
+* Morgonstund har guld i mund
+* Allt är inte guld som glimmar

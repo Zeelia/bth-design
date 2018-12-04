@@ -1,3 +1,5 @@
-#### Footer col 3
+#### Användbara länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+* [google.com](http://google.com)
+* [PHP dokumentation](http://php.net)
+* [YouTube &mdash; för att kolla på dbwebb!](http://youtube.com)

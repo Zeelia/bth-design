@@ -1,3 +1,3 @@
-#### Footer col 2
+#### En liten låda i mitten
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Om man tittar på denna webbsida på en mobil så arrangerar dessa lådor om sig!

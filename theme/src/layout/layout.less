@@ -1,0 +1,207 @@
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+
+/**
+* Variables
+*/
+
+
+/**
+* General layout
+*/
+.wrap-all {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text{
+    font-family: "Verdana";
+    text-transform: uppercase;
+}
+
+.site-logo-text > a {
+    color: black;
+    text-decoration: none;
+    line-height: 5rem;
+    padding: 0 1rem;
+}
+
+.site-logo-text-icon > img {
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.region-header {
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    background: url("../img/theme/tree.jpg");
+    margin-top: 1rem;
+    height: 5rem;
+}
+.region-header > div {
+    float: left;
+}
+
+.has-sidebar-left.region-main {
+    margin-left: 200px;
+}
+
+.outer-wrap {
+    clear: left;
+}
+
+.my-navbar {
+    list-style-type: none;
+    padding: 0.7em;
+    padding-left: 0;
+    margin: 0;
+}
+
+.my-navbar li {
+    line-height: 2.8rem;
+}
+
+.my-navbar li > a {
+    line-height: 5rem;
+    padding: 0 1rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.my-navbar li > a:hover {
+    text-decoration: underline;
+}
+
+.my-navbar li > .rm-submenu-button {
+    display: none;
+}
+
+.my-navbar li > ul > li {
+    background-color: white;
+    > a {
+        color: black;
+    }
+}
+
+.outer-wrap-flash {
+    display: none;
+}
+
+.right {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column {
+    padding: 0 1em;
+    border: 1px #ccc solid;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer-column:hover,
+.byline:hover {
+    box-shadow: 3px 3px 3px #bbb;
+}
+
+.flashmessage {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.flashmessage.info {
+    background-color: rgb(125, 230, 252);
+}
+
+.flashmessage > p {
+    display: inline;
+}
+
+.region-breadcrumb li,
+.region-breadcrumb a {
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;
+    float: left;
+    padding-right: 0.5em;
+    overflow: hidden;
+}
+
+.breadcrumb-list > ul {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+div.region-sidebar-left {
+    float: left;
+}
+
+.next-previous {
+    overflow: hidden;
+}
+
+.next-previous > div {
+    display: inline-block;
+}
+
+.next-previous:first-of-type {
+    display: none;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+/* Styles for the byline */
+
+.byline {
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid #ccc;
+    clear: both;
+}
+
+.byline img {
+    float: left;
+    margin-right: 1em;
+}
+
+.byline h4 {
+    margin: 0;
+}
+
+.byline::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.rm-max .rm-small {
+    display: none;
+}
